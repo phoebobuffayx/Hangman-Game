@@ -3,6 +3,7 @@ import random
 import hangman_art
 import os
 
+#clear terminal log 
 def clear_screen():
     os.system('cls' if os.name == 'nt' else 'clear')
 
